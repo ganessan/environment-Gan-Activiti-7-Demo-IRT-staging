@@ -4,6 +4,7 @@ dependencies:
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.6.0
 - name: activiti-cloud-notifications-graphql
+  alias: notifications-graphql
   repository: https://introproventures.github.io/activiti-cloud-helm-charts/
   version: 1.0.5
 - name: activiti-irt-activity-connector
