@@ -55,8 +55,8 @@ application:
   rabbitmq:
     ingress:
       enabled: true
-      hostName: *gatewayhost
-      path: /rabbitmq
+      hostName: rabbitmq.jx-staging.54.159.228.81.nip.io
+      path: /
   runtime-bundle:
     enabled: true
     db:
