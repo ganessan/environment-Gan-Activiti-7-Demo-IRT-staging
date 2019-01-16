@@ -50,7 +50,13 @@ activiti-cloud-modeling:
   backend:
     image:
       pullPolicy: IfNotPresent  
+      
 application:
+  rabbitmq:
+    ingress:
+      enabled: true
+      hostName: *gatewayhost
+      path: /rabbitmq
   runtime-bundle:
     enabled: true
     db:
