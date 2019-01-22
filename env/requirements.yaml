@@ -7,12 +7,12 @@ dependencies:
   name: activiti-cloud-notifications-graphql
   repository: https://introproventures.github.io/activiti-cloud-helm-charts/
   version: 1.0.7
-# - name: activiti-irt-activity-connector
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 0.0.2
-# - name: activiti-irt-activity-rb
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 0.0.7
+- name: activiti-irt-activity-connector
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.2
+- name: activiti-irt-activity-rb
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.7
 - name: application
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.6.1
