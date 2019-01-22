@@ -149,6 +149,9 @@ infrastructure:
     keycloak:
       enabled: true
       keycloak:
+        image:
+          repository: jboss/keycloak
+          tag: 4.5.0.Final
         ingress:
           enabled: true
           path: /
